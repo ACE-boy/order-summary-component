@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 1440px;
+  font-size: 16px;
+  font-family: "red hat display";
+  background-color: hsl(225, 100%, 94%);
+  text-align: center;
+}
+.containier {
+  height: 550px;
+  width: 400px;
+  transform: translate(720px, 184.5px);
+  padding: 40px;
+  border-radius: 30px;
+  background-color: hsl(225, 100%, 94%);
+  box-shadow: 0px 1px 10px #8888888c;
+}
+.containier .img-logo {
+  height: auto;
+  width: 400px;
+  margin-left: -40px;
+  margin-top: -40px;
+  border-radius: 30px 30px 0 0;
+}
+h3 {
+  margin: 20px 0;
+  color: hsl(224, 27%, 19%);
+}
+.containier-desc {
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 20px;
+}
+.form-sub {
+  background-color: #6d6a6a13;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 15px;
+}
+.form-sub img {
+  margin-left: -50px;
+  height: 50px;
+}
+.plan-sec {
+  line-height: 25px;
+  margin-left: -50px;
+  color: hsl(224, 27%, 19%);
+}
+.plan-chhiose {
+  font-weight: bold;
+}
+.change-btn {
+  padding-top: 15px;
+  color: hsl(245, 75%, 52%);
+}
+.change-btn a {
+  text-decoration: none;
+  margin-right: -50px;
+  font-weight: bold;
+}
+.change-btn a:hover {
+  color: hsla(245, 89%, 64%, 0.877);
+}
+
+.process-btn button {
+  font-weight: bold;
+  width: 100%;
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  box-shadow: -1px 5px 20px #5b5555c2;
+  color: hsl(0, 57%, 97%);
+  background-color: hsla(247, 92%, 43%, 0.877);
+}
+.process-btn button:hover {
+  background-color: hsl(245, 73%, 64%);
+  font-weight: bold;
+  color: hsl(225, 100%, 98%);
+}
+.cancel-btn a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #5b5555c2;
+}
+.cancel-btn a:hover {
+  color: rgb(32, 32, 37);
+}
